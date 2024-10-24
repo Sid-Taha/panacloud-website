@@ -1,0 +1,489 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100%;
+}
+
+.imgDiv{
+  position: absolute;
+  z-index: -1;
+  /* display: none; */
+}
+
+.imgDiv img{
+  width: 100%;
+  display: block;
+}
+
+.header{
+  width: 100%;
+}
+
+.headerTopDiv{
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+}
+
+.socialIconDiv{
+  width: 220px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+  gap: 5px; 
+}
+
+.circleIcon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneIconDiv{
+  width: 542px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.phoneIconDiv p{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.phoneIconDiv .callBtn {
+  margin-left: 10px;
+  padding: 6px 8px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  background-color: #a2d84c;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.navBar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navBar img {
+  margin-left: 34px;
+  width: 149px;
+}
+
+.navList {
+  height: 100%;
+  width: 867px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  /* display: none; */
+}
+
+.navList li{
+  list-style: none;
+
+}
+
+.navList li a{
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.sliderImgDiv {
+  width: 100%;
+  height: 524px;
+  /* display: none; */
+}
+
+/* swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.img_content {
+  width: 100%;
+  height: 248px;
+  position: absolute;
+  top: 163px;
+  left: 0;
+}
+
+.img_contentTopDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.leftDiv {
+  width: 347px;
+  height: 73px;
+  background-color: #a2d84c;
+}
+
+.rightDiv{
+  width: 347px;
+  height: 73px;
+  background-color: #a2d84c;
+}
+
+.img_content h1 {
+  font-size: 68px;
+  color: white;
+}
+
+.img_contentBottomDiv {
+  width: 100%;
+  height: 141px;
+  margin-top: 27px;
+  text-align: center;
+}
+
+.img_contentBottomDiv  pre{
+  font-size: 21px;
+  color: white;
+}
+
+.buttonDiv button {
+  margin-top: 40px;
+  font-size: 18px;
+  padding: 12px 41px;
+  border: none;
+  outline: none;
+  background-color: #febd19;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.advantageDiv {
+  width: 100%;
+  height: 489px;
+  background-color: white;
+}
+
+.adv_top {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+}
+
+.adv_top h1 {
+  font-size: 46px;
+  margin-top: 32px;
+  color: #668e19;
+}
+
+.sp1{
+  color: black;
+}
+
+.advantageDiv pre {
+  margin-top: 9px;
+  font-size: 17px;
+  color: #c4c2c2;
+}
+
+.bottomIcons {
+  width: 100%;
+  height: 263px;
+  margin-top: 9px;
+  padding-left: 58px;
+  display: flex;
+  gap: 36px;
+}
+
+.iconsDiv {
+  height: 100%;
+  width: 215px;
+  text-align: center;
+}
+
+.roundDiv {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &:hover{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.iconH1 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.iconsDiv p {
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #cbc7c7;
+}
+
+.aboutUs_Div {
+  width: 100%;
+  height: 468px;
+  background-image: url('./pics/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutUs_Div h1{
+  color: #668e19;
+  font-size: 44px;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+.aboutUs_Div .paraDiv {
+  margin-top: 32px;
+  margin-left: 81px;
+  width: 518px;
+  height: 233px;
+}
+
+.aboutUs_Div .paraDiv p {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.aboutUs_Div .buttonDiv {
+  margin-left: 84px;
+  margin-top: -3px;
+}
+
+.servicesDiv {
+  width: 100%;
+  height: 473px;
+  border: 2px solid transparent;
+  background-color: white;
+}
+
+.servicesDiv h1 {
+  margin-top: 37px;
+  font-size: 43px;
+  font-weight: 600;
+  color: #668e19;
+}
+
+.servicesDiv pre {
+  margin-top: 11px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #cbc7c7;
+}
+
+.servicesBottomDiv {
+  width: 100%;
+  height: 283px;
+  padding-top: 0px;
+  border: 2px solid transparent;
+  display: flex;
+  gap: 20px;
+  padding-left: 79px;
+}
+
+.starCardDiv {
+  position: relative;
+  margin-top: 63px;
+  height: 218px;
+  width: 280px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f2f2f2;
+  transition: all 0.3s ease-in-out;
+
+
+  &:hover{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
+}
+
+.roundstar {
+  position: absolute;
+  top: -38px;
+  left: 100px;
+  height: 77px;
+  width: 77px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd19;
+}
+
+
+.starCardDiv h1 {
+  font-size: 16px;
+  margin-top: 65px;
+  font-weight: 600;
+  color: black;
+}
+
+.starCardDiv pre {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: rgb(155, 154, 154);
+  margin-bottom: 20px;
+}
+
+.starCardDiv a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #8ec63f;
+}
+
+.portfolioDiv {
+  height: 731px;
+  width: 100%;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #212121;
+}
+
+.portfolioTopDiv{
+  width: 100%;
+  height: 200px;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.portfolioTopDiv h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #668e19;
+  margin-top: 35px;
+}
+
+.portfolioTopDiv pre {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a4a4a4;
+  margin-top: 10px;
+}
+
+.portfolioTopDiv ul {
+  border: 2px solid transparent;
+  height: 68px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioTopDiv ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.portfolioTopDiv ul li a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+
+  &:hover{
+    color: #ff831e;
+  }
+}
+
+.portfolioBottomDiv{
+  width: 100%;
+  height: auto;
+  border: 2px solid transparent;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.portfolioBottomDiv .portCard{
+  width: 233px;
+  height: 233px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.portCard:hover{
+  background-color: #EF4136;
+}
+
+.c1{
+  background-color: white;
+}
+.c2{
+  background-color: #5e5e5e;
+}
+.c3{
+  background-color: #d2d3d5;
+}
+.c4{
+  background-color: #838383;
+}
+.c5{
+  background-color: white;
+}
+.c6{
+  background-color: #a3a3a3;
+}
+.c7{
+  background-color: #d2d3d5;
+}
+.c8{
+  background-color: white;
+}
+.c9{
+  background-color: #838383;
+}
+.c10{
+  background-color: #5e5e5e;
+}
