@@ -487,3 +487,171 @@ body{
 .c10{
   background-color: #5e5e5e;
 }
+
+.processDiv {
+  width: 100%;
+  height: 510px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+
+.processDiv h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #668e19;
+  margin-top: 78px;
+}
+
+.processDiv pre {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a4a4a4;
+  margin-top: 10px;
+  margin-bottom: 39px;
+}
+
+.processIconsDiv {
+  width: 1163px;
+  height: 247px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: flex;
+  gap: 47px;
+  overflow: hidden;
+}
+
+.processIconsDiv .iconDiv {
+  width: 157px;
+  height: 100%;
+  border: 2px solid transparent;
+}
+
+.processIconsDiv .iconDiv .circleDiv {
+  margin: auto;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  border: 4px solid #d1d2d4;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.processIconsDiv .iconDiv .circleDiv::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  height: 4px;
+  width: 64px;
+  background-color: #d1d2d4;
+}
+
+.countRoundDiv {
+  position: absolute;
+  top: -19px;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  background-color: #febd19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.iconDiv h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 19px;
+  color: #484646;
+}
+
+.iconDiv pre {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.aboutDiv {
+  width: 100%;
+  height: 540px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.aboutDiv h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #668e19;
+  margin-top: 36px;
+}
+
+.aboutDiv pre {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a4a4a4;
+  margin-top: 10px;
+  margin-bottom: 39px;
+}
+
+.peopleReviewsDiv {
+  border: 2px solid transparent;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.peopleReviewsDiv .review {
+  width: 586px;
+  height: 140px;
+  border: 2px solid transparent;
+  display: flex;
+}
+
+.peopleReviewsDiv .review .profileDiv {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.profileDiv img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.reviewrightDiv {
+  height: 100%;
+  width: 400px;
+  margin-left: 19px;
+  border: 2px solid transparent;
+  text-align: left;
+}
+
+.reviewrightDiv h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-top: 12px;
+  margin-left: 3px;
+}
+
+
+.reviewrightDiv pre{
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 39px;
+}
