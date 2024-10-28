@@ -655,3 +655,285 @@ body{
   margin-top: 10px;
   margin-bottom: 39px;
 }
+
+.skillsDiv {
+  width: 100%;
+  height: 490px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: white;
+}
+
+.skillsDiv h1 {
+  margin-top: 41px;
+  font-size: 43px;
+  font-weight: 600;
+  color: black;
+}
+
+.skillsDiv pre {
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #bdbec1;
+}
+
+.circleProgessDiv {
+  width: 975px;
+  height: 255px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  gap: 65px;
+}
+
+.borderCircle {
+  width: 172px;
+  height: 172px;
+  margin-top: 13px;
+  margin-left: 14px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.topBorderCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBorderCircle {
+  width: 130px;
+  height: 130px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.progressCard {
+  width: 190px;
+  height: 100%;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.progressCard h1 {
+  margin-top: 38px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.contactDiv {
+  width: 100%;
+  height: 342px;
+  border: 2px solid transparent;
+  text-align: center;
+  background-color: #8dc73f;
+}
+
+.contactDiv h1 {
+  font-size: 62px;
+  font-weight: 600;
+  margin-top: 46px;
+  color: white;
+}
+
+.contactInputDiv {
+  width: 1026px;
+  height: 67px;
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 36px;
+  text-align: left;
+  display: flex;
+  gap: 24px;
+}
+
+.contactInputDiv input {
+  width: 245px;
+  height: 48px;
+  border: none;
+  padding-left: 12px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.contactInputDiv button {
+  width: 194px;
+  height: 49px;
+  background-color: #febd19;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+
+.contactDiv pre {
+  margin-top: 23px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contactUsDiv {
+  width: 100%;
+  height: 650px;
+  border: 2px solid transparent;
+  background-color: white;
+  text-align: center;
+}
+
+.contactUsDiv h1 {
+  margin-top: 40px;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.contactUsDiv pre {
+  margin-top: 11px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #bdbec1;
+  margin-bottom: 20px;
+}
+
+.mapH1 {
+  width: 970px;
+  height: 42px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: flex;
+}
+
+.mapIcon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+}
+
+.mapH1 p {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mapPhoneDiv {
+  width: 820px;
+  height: 37px;
+  border: 2px solid transparent;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.mapPhoneDiv p{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.googleMap {
+  width: 100%;
+  height: 380px;
+  border: 2px solid transparent;
+  margin-top: 36px;
+}
+
+.googleMap iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
+footer {
+  width: 100%;
+  height: 367px;
+  border: 2px solid transparent;
+  padding-top: 54px;
+  display: flex;
+  background-color: #668e19;
+}
+
+.footerfirstDiv {
+  width: 240px;
+  height: 300px;
+  border: 2px solid transparent;
+  margin-left: 87px;
+}
+
+.footerfirstDiv img {
+  width: 150px;
+}
+
+.footerfirstDiv p {
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  line-height: 16px;
+}
+  
+.footerfirstDiv  .copyRight {
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.footerSecDiv {
+  width: 212px;
+  height: 251px;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  border-right: 2px solid #7bad2d;
+}
+
+.footerSecDiv h1 {
+  margin-top: -5px;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: white;
+}
+
+.footerSecDiv ul {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.footerSecDiv ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.footerSecDiv ul li a{
+  color: white;
+}
+
+.footerSecDiv p {
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+}
